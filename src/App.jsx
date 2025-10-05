@@ -38,7 +38,7 @@ function Navbar() {
     <header className="sticky top-0 z-30 bg-white/80 backdrop-blur border-b border-gray-100">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         <Link to="/" className="inline-flex items-center gap-2 text-xl font-semibold text-gray-900">
-          <img src="/src/assets/logo.svg" alt="Khichiya" className="h-6 w-6" />
+          <img src={fooderyspices} alt="Khichiya" className="h-6 w-6 rounded" />
           Khichiya
         </Link>
         <nav className="hidden md:flex items-center gap-6 text-gray-700">
